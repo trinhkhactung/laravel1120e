@@ -1,8 +1,8 @@
-@include('layout.header')
+@include('includes.header')
 <body>
 	<div class="wrapper">
-		@include('layout.nav-head')
-		@include('layout.sidebar')
+		@include('includes.nav-head')
+		@include('includes.sidebar')
 		<div class="main-panel">
 			<div class="content">
 				<div class="container-fluid">
@@ -12,6 +12,6 @@
 		</div>
 	</div>
 
-	@include('layout.script')
+	@include('includes.script')
 </body>
 </html>
